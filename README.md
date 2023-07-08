@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# [MovieGalaxy](https://main--galaxymovie.netlify.app) #
+This project is a React application that uses The Movie Database (TMDB) API to fetch and display popular movies, upcoming movies, highest-rated movies, and provides a search functionality to search for a specific movie.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Installation
+1. Clone the repository: `git clone https://github.com/singhabhishek6996/MovieGalaxy.git`.
+2. Navigate to the project directory: `cd MovieGalaxy`.
+3. Install dependencies: `npm install`.
 
-## Available Scripts
+### Configuration
+To use this project, you need to obtain an API key from [The Movie Database](https://www.themoviedb.org/) website. Follow these steps to configure the API key:
 
-In the project directory, you can run:
+1. Create an account on The Movie Database website if you haven't already.
+2. Go to your account settings and navigate to the API section.
+3. Request an API key by providing necessary details.
 
-### `npm start`
+### Usage
+After completing the installation and configuration steps, you can run the application locally:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open your browser and visit `http://localhost:3000` to view the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
+MovieGalaxy provides the following features:
 
-### `npm test`
+* **Popular Movies**: Displays a list of popular movies fetched from the TMDB API.
+* **Upcoming Movies**: Shows a list of upcoming movies fetched from the TMDB API.
+* **Highest-Rated Movies**: Displays a list of highest-rated movies fetched from the TMDB API.
+* **Movie Search**: Allows users to search for movies by entering a query. The search functionality uses the TMDB API's search endpoint.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Dependencies
+MovieGalaxy relies on the following dependencies:
 
-### `npm run build`
+* React: JavaScript library for building user interfaces.
+* React Router: Library for routing in React applications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure to check the package.json file for the specific versions of each dependency used in this project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The MovieGalaxy application is deployed and can be accessed using the following link:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MovieGalaxy](https://main--galaxymovie.netlify.app)
